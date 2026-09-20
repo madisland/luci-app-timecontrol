@@ -482,7 +482,7 @@ update_ruleTemporaryDuration() {
     fi
     uci -q commit timecontrol
     
-    logger -t timecontrol "updated rule's temporary duration to $temporaryDuration (ID: $1)"
+    #logger -t timecontrol "updated rule's temporary duration to $temporaryDuration (ID: $1)"
 }
 
 update_temporaryDuration() {
